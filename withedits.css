@@ -1,0 +1,326 @@
+/* A Free Design by Bryant Smith (bryantsmith.com)*/
+/*Edited by Theresa Buffumm*/
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+/*Edited background image. 
+  Edited text align.
+  Edited colors.*/
+body {
+	margin: 0;
+	padding: 0;
+	background: url(editbackground.jfif) no-repeat;
+    background-color:orange;
+    background-position:center top;
+	background-attachment:fixed;
+	text-align: center;
+	font-family: Helvetica, Arial,  sans-serif;
+	font-size: 13px;
+	color:purple;
+  }
+
+/*Edited margin.*/
+*
+{
+  margin: 15px;
+ text-align:left;
+ }
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+
+/*Edited margin.
+  Edited width.*/
+#page
+{
+  margin: 50 auto 50 auto; 
+  margin-top:10px;
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 542px;
+}
+
+/*Edited margin.
+  Deleted float.*/
+#top
+{
+
+width: 300px;
+height:35px;
+margin-left: 5px;
+}
+/*Edited float.
+  Edited padding.
+  Added margin.*/
+#top img
+{
+padding-left:0px;
+padding-right:0px;
+margin-right: 0 px;
+float:left;
+}
+/*Edited width.
+Edited height.*/
+#header
+{
+background-image:url(header.png);
+background-repeat:no-repeat;
+height: 120px;
+width:435px;
+display:block;
+clear:both;
+}
+
+/*Added left margin.
+Added bottom margin.
+Edited color.
+Edited font size.
+Edited font family.*/
+#header h1
+{
+position:relative;
+margin-top: 2px;
+margin-left: 20px;
+margin-bottom:0px;
+padding-top:2px;
+border-color:purple;
+border-width:12px;
+color:purple;
+text-align:left;
+font-size:30px;
+font-weight:bold;
+font-family:fantasy;
+}
+/*Edited left margin.
+Added bottom margin.
+Edited right padding.
+Edited color.
+Edited font size.*/
+#header h2
+{
+margin-left:5px;
+margin-right: 0px;
+margin-top:7px;
+margin-bottom: 0px;
+padding-right:10px;
+position:static;
+color:purple;
+text-align:left;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+text-align:justify;
+}
+
+/*Edited width.*/
+#content
+{
+width: 60px;
+clear:both;
+margin-left:0px;
+padding-top:2px;
+}
+
+/*Edited width.
+Edited height.
+Added top margin.
+Add bottom margin.*/
+#content .content_top
+{
+background-image:url(content_top.png);
+background-repeat:no-repeat;
+height:62px;
+width:475px;
+margin-top:10px;
+margin-bottom: 10px;
+}
+
+/*Edited top padding.
+Added botom padding.
+Added left padding.
+Added right padding.
+Added top margin.
+Added bottom margin.
+Edited font size.  */
+#content .content_top h1
+{
+padding-top: 20px;
+padding-bottom: 10px;
+padding-left:10px;
+padding-right:10px;
+text-align:center;
+margin-top: 2px;
+margin-bottom: 2px;
+font-size:20px;
+}
+
+/*Edited width.
+Edited height.
+Added padding.
+Added left margin.
+Added bottom margin.*/
+#content .content_instance
+{
+width: 842px;
+height:185px;
+clear:both;
+background-image:url(content_back.png);
+background-repeat:repeat-x;
+padding: 5px;
+margin-left: 0px;
+margin-bottom: 15px;
+}
+
+/* This section was deleted as it contained
+no meaningful content in the original.
+Plus, space was needed for the redesign.*/
+
+/*#content .content_instance_big h2
+{
+font-size:26px;
+color:#000000;
+padding-left:10px;
+padding-right:10px;
+
+}
+
+#content .content_instance_big p
+{
+font-size:16px;
+color:#000000;
+padding-left:10px;
+padding-right:10px;
+}
+
+a img
+{
+border:none;
+}
+
+
+#content .content_instance_big
+{
+padding-top:10px;
+width:742px;
+height:auto;
+clear:both;
+background-image:url(content_back.png);
+background-repeat:repeat-x;
+}
+*/
+
+
+/*Edited width.
+Edith height.*/
+#content .content_instance img
+{
+width:95px;
+height:95px;
+margin-top:30px;
+margin-bottom:30px;
+margin-left:30px;
+margin-right:5px;
+float:left;
+clear:none;
+}
+
+/*Edited top margin.
+Edited right margin.
+Edited left margin.
+Edited right padding.
+Added border.*/
+#content .content_instance .content_right
+{
+margin-top:30px;
+margin-right: 10px;
+margin-left: 2px;
+padding-right: 10px;
+padding-top:10px;
+border-color:purple;
+border-style:solid;
+border-width:2px;
+width:385px;
+float:left;
+}
+
+/*Edited font size.
+Edited line-height.
+Edited color./
+Added right margin.*/
+#content .content_instance .content_right p
+{
+text-align:justify;
+font-size:8px;
+line-height:10px;
+color:purple;
+}
+
+/*Edited color.
+Edited bottom padding.
+Added top padding.
+Added top margin.*/
+#content .content_instance  h2
+{
+color:purple;
+padding-bottom:2px;
+padding-top:0px;
+margin-top: 0px;
+}
+
+/*Edited width.
+Edited color.
+Edited text align.*/
+.links
+{
+width:822px;
+height:40px;
+font-size:14px;
+font-weight:bold;
+color:orange;
+line-height:40px;
+text-align:left;
+padding-right:20px;
+}
+
+/*Edited color.
+Edited color.
+Edited padding.*/
+.links a, .links a:visited
+{
+font-size:14px;
+font-weight:bold;
+text-decoration:none;
+color:orange;
+background-color:gray;
+padding:7px;
+}
+
+/*Edited colors.*/
+.links a:hover
+{
+color:purple;
+background-color:orange;
+}
+
+#footer
+{
+text-align:center;
+width:inherit;
+color:orange;
+font-size:11px;
+}
+
+/*#footer a, #footer a:visited
+{
+color:#FFFFFF;
+}*/
+
+
